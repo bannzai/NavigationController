@@ -11,7 +11,6 @@
 		2001DA1F2B9A687300EE418F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001DA1E2B9A687300EE418F /* ContentView.swift */; };
 		2001DA212B9A687400EE418F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2001DA202B9A687400EE418F /* Assets.xcassets */; };
 		2001DA242B9A687400EE418F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2001DA232B9A687400EE418F /* Preview Assets.xcassets */; };
-		2001DA2B2B9A68C600EE418F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001DA2A2B9A68C600EE418F /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		2001DA1E2B9A687300EE418F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2001DA202B9A687400EE418F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2001DA232B9A687400EE418F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2001DA2A2B9A68C600EE418F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 			children = (
 				2001DA1C2B9A687300EE418F /* NavigationControllerDemoApp.swift */,
 				2001DA1E2B9A687300EE418F /* ContentView.swift */,
-				2001DA2A2B9A68C600EE418F /* NavigationController.swift */,
 				2001DA202B9A687400EE418F /* Assets.xcassets */,
 				2001DA222B9A687400EE418F /* Preview Content */,
 			);
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2001DA1F2B9A687300EE418F /* ContentView.swift in Sources */,
-				2001DA2B2B9A68C600EE418F /* NavigationController.swift in Sources */,
 				2001DA1D2B9A687300EE418F /* NavigationControllerDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
