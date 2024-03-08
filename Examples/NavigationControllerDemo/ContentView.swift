@@ -74,6 +74,12 @@ struct ThirdPage: View {
       }
 
       Button {
+        navigationController.path.removeLast()
+      } label: {
+        Text("Edit path and pop")
+      }
+
+      Button {
         navigationController.popToRoot()
       } label: {
         Text("Pop to root")
