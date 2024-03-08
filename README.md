@@ -25,12 +25,12 @@ To use `NavigationController`, apply the `WithNavigationModifier` modifier to th
 ```swift
 struct ContentView: View {
   var body: some View {
-    YourStartingView()
+    RootView()
       .withNavigation()
   }
 }
 
-struct YourDestinationView: View {
+struct RootView: View {
   // Retrieve navigationController via EnvironmentObject
   @EnvironmentObject var navigationController: NavigationController
 
