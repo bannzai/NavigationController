@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NavigationController
 
 struct ContentView: View {
   var body: some View {

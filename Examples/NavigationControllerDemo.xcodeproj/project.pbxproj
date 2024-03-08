@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		2001DA1F2B9A687300EE418F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001DA1E2B9A687300EE418F /* ContentView.swift */; };
 		2001DA212B9A687400EE418F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2001DA202B9A687400EE418F /* Assets.xcassets */; };
 		2001DA242B9A687400EE418F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2001DA232B9A687400EE418F /* Preview Assets.xcassets */; };
+		2056770C2B9AC3F7002DDA1E /* NavigationController in Frameworks */ = {isa = PBXBuildFile; productRef = 2056770B2B9AC3F7002DDA1E /* NavigationController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2056770C2B9AC3F7002DDA1E /* NavigationController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = NavigationControllerDemo;
+			packageProductDependencies = (
+				2056770B2B9AC3F7002DDA1E /* NavigationController */,
+			);
 			productName = NavigationControllerDemo;
 			productReference = 2001DA192B9A687300EE418F /* NavigationControllerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 2001DA102B9A687300EE418F;
+			packageReferences = (
+				2056770A2B9AC3F7002DDA1E /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = 2001DA1A2B9A687300EE418F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2056770A2B9AC3F7002DDA1E /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2056770B2B9AC3F7002DDA1E /* NavigationController */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NavigationController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2001DA112B9A687300EE418F /* Project object */;
 }
