@@ -14,12 +14,7 @@ public final class NavigationController: ObservableObject {
   fileprivate var destinations: [NavigationID: () -> any View] = [:]
 
   public func push(id: NavigationID = .init(), @ViewBuilder destination: @escaping () -> some View)  {
-    destinations[id] = { [weak self] in
-      destination()
-        .onAppear {
-          self?.destinations[id] = nil
-      }
-    }
+    destinations[id] = destination
     path.append(id)
   }
 
